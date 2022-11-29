@@ -1,0 +1,2445 @@
+body {
+  margin: 0;
+  background-color: #2f344a;
+  overflow-x: hidden;
+}
+
+header {
+  color: white;
+  background: #c8a35f;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.top-header {
+  border-bottom: 1px solid#DEDEDE;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-sb {
+  justify-content: space-between;
+}
+
+.text-blue {
+  color: #3a95ff;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.top-menu li a {
+  color: #f2f2f2;
+  text-decoration: none; /*Убрать подчеркивание текста*/
+}
+
+.top-menu-l {
+  position: absolute;
+  width: 83px;
+  height: 13px;
+  margin-left: 105px; /*Подвинуть текст РУ и ЕNG*/
+  display: flex;
+  font-family: 'Roboto';
+  font-style: 'normal';
+  font-weight: '400';
+  font-size: 14px;
+  line-height: 16px;
+  justify-content: space-between;
+  align-items: center;
+  
+  list-style: none;
+}
+
+.top-menu-с {
+  position: absolute;
+  width: 129px;
+  height: 16px;
+  margin-left: 513px;
+  top: 12px; /*Опустить поднять текст*/
+  font-family: 'Roboto';
+  font-style: 'normal';
+  font-weight: '400';
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+}
+
+.top-menu-r {
+  position: absolute;
+  display: flex;
+  height: 16px;
+  margin-left: 910px; /*Подвинуть текст Perevozki*/
+  top: 12px; /*Опустить поднять текст*/
+  justify-content: space-between;
+  align-items: center;
+  width: 141px;
+  font-family: 'Roboto';
+  font-style: 'normal';
+  font-weight: '400';
+  font-size: 14px;
+  line-height: 16px;
+  list-style: none;
+}
+
+
+
+.main-menu-x {
+  border-bottom: 1px solid #dedede;
+  background-color: #2f344a;
+}
+
+.logo-makvidj {
+  margin-left: 100px;
+}
+
+
+.text-gruz-perevozki h1 {
+position: absolute;
+width: 188px;
+height: 50px;
+margin-left: 12px; /*Подвинуть текст влево-вправо*/
+top: 33px; /*Поднять текст*/
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+}
+
+
+
+.polosa-menu {
+  margin-left: 203px;
+}
+
+
+.vector-menu {
+  margin-left: 20px;
+}
+
+
+
+.bordert {
+  border-bottom: 1px solid #dedede;
+}
+
+.main-menu-list {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  height: 71px;
+}
+
+.main-menu-list a {
+  color: white;
+  text-decoration: none; /*Убрать подчеркивание*/
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  margin-left: -10px;
+  
+}
+
+
+
+.glav-banner {
+  width: 1140px;
+  margin: 0 auto;
+  
+}
+
+
+.menu-spisok-right {
+  display: flex;
+  width: 900px;
+  margin-left: 207px;
+  justify-content: space-between;
+  padding-right: 84px;
+}
+
+
+.office-cont {
+  width: 210px;
+  padding-left: 36px;
+  top: 75px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+
+.tekst-cargo-transportation {
+  position: absolute;
+  width: 885px;
+  height: 88px;
+  margin-left: 158px;
+  top: 273px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+.tekst-perevoz-gruzov {
+  position: absolute;
+  width: 813px;
+  height: 84px;
+  margin-left: 188px;
+  top: 361px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  align-items: center;
+  text-align: center;
+  color: #BABABA;
+}
+
+
+
+
+
+
+.glav-banner-two-index {
+  width: 1140px;
+  margin: 0 auto;
+  height: 498px;
+}
+
+.glav-banner-two-services {
+  width: 1140px;
+  margin: 0 auto;
+  height: 728px;
+}
+
+.glav-banner-two-vacanty {
+  width: 1140px;
+  margin: 0 auto;
+  height: 388px;
+}
+
+
+
+.container-left {
+  margin-top: -4px;
+}
+
+.container-right {
+  margin-top: -320px;
+  margin-left: 705px;
+}
+
+
+.container-right-about {
+  margin-top: -320px;
+  margin-left: 683px;
+}
+
+
+.fura-foto {
+  margin-top: -270px;
+  margin-left: 558px;
+}
+
+
+.beige-stripe {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -229px;
+}
+
+
+
+
+
+.text-register p {
+  position: absolute;
+  width: 139px;
+  height: 31px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C8A35F;
+  margin-top: -90px;
+  margin-left: 844px;
+}
+
+
+
+
+
+.text-personal-account p {
+  position: absolute;
+  width: 261px;
+  height: 31px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #C8A35F;
+  margin-top: -60px;
+  margin-left: 822px;
+}
+
+
+
+.text-europa-gruz {
+  position: absolute;
+  width: 360px;
+  margin-left: 173px;
+  margin-top: -200px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 44px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+
+
+
+.glav-banner-three {
+  width: 1140px;
+  margin: 0 auto;
+  height: 1922px;
+}
+
+
+
+.gray-box {
+  position: absolute;
+  width: 582px;
+  height: 482px;
+  background: #393F47;
+  margin-left: 319px;
+}
+
+
+.gray-box-vacancy {
+  position: absolute;
+  width: 892px;
+  height: 1171px;
+  background: #393F47;
+  margin-left: 138px;
+  background: #393F47;
+  margin-top: 135px;
+}
+
+.text-driver-vacancy  {
+  position: absolute;
+  width: 751px;
+  height: 663px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #BABABA;
+  margin-left: 216px;
+  margin-top: 257px;
+}
+
+.text-freight-forwarder-driver {
+position: absolute;
+width: 506px;
+height: 54px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 146.48%;
+color: #FFFFFF;
+margin-top: -86px;
+margin-left: 164px;
+}
+
+.text-about-company-index {
+  position: absolute;
+  width: 500px;
+  height: 37px;
+
+  
+}
+
+.text-about-company-index h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-left: 172px;
+  margin-top: -43px;
+}
+
+
+.text-description-transportation {
+  position: absolute;
+  width: 436px;
+  height: 335px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;  
+  margin-left: 173px;
+  margin-top: 43px;
+}
+
+.rusaer {
+  position: absolute;
+  width: 299px;
+  height: 231px;
+  margin-left: 736px;
+  margin-top: -41px;
+  background: url(img/rusaer2\ 1.svg);
+  border-radius: 9px;
+}
+
+
+
+
+.maz-two {
+  position: absolute;
+  width: 404px;
+  height: 325px;
+  margin-left: 400px;
+  margin-top: 826px;
+ 
+  
+}
+
+
+.razgruzka-gruzovika {
+  position: absolute;
+  width: 299px;
+  height: 210px;
+  margin-left: 737px;
+  margin-top: 267px;
+  background: url(img/razgruzka-gruzovika.svg);
+  border-radius: 9px;
+}
+
+
+.text-cor-russia h2 {
+  position: absolute;
+  width: 800px;
+  height: 112px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 544px;
+  margin-left: 191px;
+}
+
+
+.container-gruz-delivery {
+  position: absolute;
+  width: 584px;
+  height: 797px;
+  background: #393F47;
+  margin-top: 735px;
+  margin-left: 315px;
+}
+
+
+.text-from-application-loading {
+  position: absolute;
+  width: 390px;
+  height: 211px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: 736px;
+  margin-left: 172px;
+}
+
+
+.fura-iveco {
+  position: absolute;
+  width: 299px;
+  height: 213px;
+  border-radius: 9px;
+  margin-left: 737px;
+  margin-top: 752px;
+}
+
+
+.text-from-application-loading-two {
+  position: absolute;
+  width: 406px;
+  height: 235px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: 1063px;
+  margin-left: 642px;
+}
+
+.fura-scania {
+  position: absolute;
+  width: 299px;
+  height: 213px;
+  border-radius: 9px;
+  margin-left: 171px;
+  margin-top: 1069px;
+}
+
+.text-from-application-loading-three {
+  position: absolute;
+  width: 406px;
+  height: 235px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: 1389px;
+  margin-left: 172px;
+}
+
+
+
+.fura-zzzx {
+  position: absolute;
+  width: 299px;
+  height: 213px;
+  border-radius: 9px;
+  margin-left: 564px;
+  margin-top: -197px;
+}
+
+
+
+
+
+
+.glav-banner-four {
+  width: 1140px;
+  margin: 0 auto;
+  height: 538px;
+
+}
+
+
+.beige-stripe-two {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -229px;
+}
+
+
+.text-services-home {
+  position: absolute;
+  width: 167px;
+  height: 37px;
+  font-family: 'Roboto';
+  font-style: 'normal';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-left: 172px;
+  margin-top: -100px;
+}
+
+
+.icon-set:hover a { /*Наведеник кнопок*/
+  background-color: #C8A35F;
+}
+
+
+.trucking-box {
+  position: absolute;
+  width: 195px;
+  height: 132px;
+  background: #393F47;
+  z-index: 1;
+  margin-left: 170px;
+  margin-top: 80px;
+}
+
+.text-trucking  {
+  position: absolute;
+  width: 192px;
+  height: 17px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 123.05%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 2;
+  margin-left: 3px;
+  margin-top: 84px;
+
+}
+
+
+.foto-trucking {
+  position: absolute;
+  width: 87px;
+  height: 83px;
+  z-index: 3;
+  margin-left: 56px;
+  margin-top: 5px;
+}
+
+.cargo-box {
+  position: absolute;
+  width: 195px;
+  height: 132px;
+  background: #393F47;
+  z-index: 1;
+  margin-left: 365px;
+  margin-top: 80px;
+}
+
+.text-cargo  {
+  position: absolute;
+  width: 192px;
+  height: 17px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 123.05%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 2;
+  margin-left:-1px;
+  margin-top: 84px;
+}
+
+.foto-cargo {
+  position: absolute;
+  width: 47.25px;
+  height: 46.5px;
+  left: calc(50% - 47.25px/2 - 97.38px);
+  mix-blend-mode: normal;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px;
+  gap: 10px;
+  z-index: 3;
+  margin-left: 88px;
+  margin-top: 13px;
+}
+.banner-five {
+  position: relative;
+}
+
+.glav-banner-five {
+  width: 1140px;
+  margin: 0 auto;
+  height: 900px;
+}
+
+
+
+.applic-box {
+position: absolute;
+width: 195px;
+height: 132px;
+background: #393F47;
+margin-top: 80px;
+margin-left: 558px;
+}
+
+
+
+
+.text-application-transportation {
+  position: absolute;
+  width: 192px;
+  height: 19px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 123.05%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 82px;
+  margin-left: 42px;
+}
+
+.foto-applications-edit {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 23px;
+}
+
+
+
+.status-box {
+position: absolute;
+width: 195px;
+height: 132px;
+background: #393F47;
+margin-top: 80px;
+margin-left: 753px;
+}
+
+
+
+
+.text-status-box {
+  position: absolute;
+  width: 192px;
+  height: 17px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  line-height: 123.05%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 82px;
+  margin-left: 2px;
+}
+
+
+.foto-status-box {
+  position: absolute;
+  margin-left: 72px;
+  margin-top: 23px;
+}
+
+
+
+.cost-calculation-box {
+  position: absolute;
+  width: 195px;
+  height: 132px;
+  background: #393F47;
+  margin-top: 212px;
+  margin-left:170px;
+  }
+  
+  
+
+.text-cost-calculation {
+ position: absolute;
+ width: 188px;
+ height: 45px;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 123.05%;
+ text-align: center;
+ letter-spacing: 0.05em;
+ text-transform: uppercase;
+ color: #FFFFFF; 
+ margin-top: 76px;
+ margin-left: 5px;
+}
+
+  .foto-cost-calculation {
+    position: absolute;
+    width: 45px;
+    height: 42px;
+    margin-left: 72px;
+    margin-top: 23px;
+  }
+
+
+  .documents-box {
+    position: absolute;
+    width: 195px;
+    height: 132px;
+    background: #393F47;
+    margin-top: 212px;
+    margin-left: 364px;
+    }
+
+
+    .foto-documents {
+      position: absolute;
+      width: 44px;
+      height: 52px;
+      margin-top: 15px;
+      margin-left: 77px;
+    }
+
+
+    .text-documents {
+      position: absolute;
+      width: 192px;
+      height: 17px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 123.05%;
+      text-align: center;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF; 
+      margin-top: 79px;
+      margin-left: 3px;
+    }
+
+
+.delivery-box {
+  position: absolute;
+  width: 195px;
+  height: 132px;
+  background: #393F47;
+  margin-top: 212px;
+  margin-left: 559px;
+  }
+
+  .text-delivery {
+    position: absolute;
+    width: 192px;
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 123.05%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin-top: 79px;
+    margin-left: 3px;
+  }
+
+
+    .foto-delivery {
+      position: absolute;
+      width: 44px;
+      height: 52px;
+      margin-top: 13px;
+      margin-left: 77px;
+    }
+
+
+
+    .cooperation-box {
+      position: absolute;
+      width: 195px;
+      height: 132px;
+      background: #393F47;
+      margin-top: 212px;
+      margin-left: 753px;
+    }
+
+
+
+
+    .foto-cooperation {
+      position: absolute;
+      width: 44px;
+      height: 52px;
+      margin-top: 18px;
+      margin-left: 74px;
+    }
+
+
+
+    .text-cooperation {
+    position: absolute;
+    width: 192px;
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 123.05%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    margin-top: 79px;
+    margin-left: 3px;
+    }
+    
+
+    /*Калькулятор JS*/
+
+
+    .container-kalkulator {
+      width: 780px;
+      position: absolute;
+      height: 685px;
+      margin-left: 170px;
+      background: #D9D9D9;
+      border-radius: 31px;
+      margin-top: 226px;
+      z-index: 2;
+      }
+      
+
+
+    .text-Calculate-cargo H2 {
+      position: absolute;
+      width: 410px;
+      height: 37px;
+      margin-left: 170px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 49px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      border: 0px solid #000000; text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25); 
+      }
+      
+      
+      .yellow-box-one {
+          position: absolute;
+          width: 120px;
+          height: 5px;
+          background: linear-gradient(0deg, #F7B91B, #F7B91B), 
+          linear-gradient(0deg, #F7B91B, #F7B91B) #F7B91B; 
+          border-radius: 7px;
+          margin-top: 139px;
+          margin-left: 131px;
+           padding-bottom: 20px;
+      }
+      
+      
+      .yellow-box-two {
+          position: absolute;
+          width: 137px;
+          height: 25px;
+          background: linear-gradient(0deg, #F7B91B, #F7B91B), 
+          linear-gradient(0deg, #F7B91B, #F7B91B) #F7B91B; 
+          border-radius: 7px;
+          margin-top: 138px;
+          margin-left: 400px;
+      } 
+      
+      
+      .weight-text-one p {
+          position: absolute;
+          width: 76px;
+          height: 15px;
+          font-family: 'Risque';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 123.05%;
+          letter-spacing: 0.075em;
+          text-transform: uppercase;
+          margin-top: 3px;
+          margin-left: 20px;
+         
+      
+      }
+      
+      
+      .weight-text-two p {
+          position: absolute;
+          width: 116px;
+          height: 15px;
+          font-family: 'Risque';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 123.05%;
+          letter-spacing: 0.075em;
+          text-transform: uppercase;
+          margin-top: 3px;
+          margin-left: 15px;
+         
+      
+      }
+      
+      .form-control-one {  /*Полоса с текстом слева*/
+          position: absolute;
+          width: 204px;
+          height: 51px;
+          font-family: 'Roboto';
+          font-weight: 400;
+          font-size: 25px;
+          letter-spacing: 0.075em;
+          text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+          background: #D9D9D9; border: 1px solid rgba(0, 0, 0, 0.35);
+          border-radius: 12px;
+          padding-left: 25px;
+          margin-top: 70px;
+          margin-left: -10px;
+      }
+      
+      
+      .form-control-two {  /*Полоса с текстом справа*/
+          position: absolute;
+          width: 204px;
+          height: 51px;
+          font-family: 'Roboto';
+          letter-spacing: 0.075em;
+          background: #D9D9D9; border: 1px solid rgba(0, 0, 0, 0.35);
+          text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+          border-radius: 12px;
+          font-size: 25px;
+          margin-top: 70px;
+          margin-left: -10px;
+          padding-left: 25px;
+      }
+      
+      .custom-control-label-one {
+         position: absolute;
+         width: 335px;
+         height: 23px;
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 300;
+         font-size: 20px;
+         line-height: 123%;
+         letter-spacing: 0.15em;
+         text-transform: uppercase;
+         color: #000000;
+         text-shadow: 0px 4x 4px rgba(0, 0, 0, 0.25); 
+         margin-top: 300px;
+         margin-left: 165px;
+      }
+      
+      
+      .custom-control-label-two {
+          position: absolute;
+          width: 335px;
+          height: 23px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 123%;
+          letter-spacing: 0.15em;
+          text-transform: uppercase;
+          color: #000000;
+          text-shadow: 0px 4x 4px rgba(0, 0, 0, 0.25); 
+          margin-top: 340px;
+          margin-left: 165px;
+       }
+      
+      
+       .custom-control-label-three {
+          position: absolute;
+          width: 335px;
+          height: 23px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 123%;
+          letter-spacing: 0.15em;
+          text-transform: uppercase;
+          color: #000000;
+          text-shadow: 0px 4x 4px rgba(0, 0, 0, 0.25); 
+          margin-top: 380px;
+          margin-left: 165px;
+       }
+       
+      
+      .custom-control-input-one {
+          position: absolute;
+          width: 25px;
+          height: 22px;
+          background: #D9D9D9;
+          border: 1px solid rgba(0, 0, 0, 0.35);
+          border-radius: 3px;
+          margin-top: 300px;
+          margin-left: 120px;
+      }
+      
+      
+      .custom-control-input-two {
+          position: absolute;
+          width: 25px;
+          height: 22px;
+          background: #D9D9D9;
+          border: 1px solid rgba(0, 0, 0, 0.35);
+          border-radius: 3px;
+          margin-top: 340px;
+          margin-left: 120px;
+      }
+      
+      
+      
+      .custom-control-input-three {
+          position: absolute;
+          width: 25px;
+          height: 22px;
+          background: #D9D9D9;
+          border: 1px solid rgba(0, 0, 0, 0.35);
+          border-radius: 3px;
+          margin-top: 380px;
+          margin-left: 120px;
+      }
+      
+      .rasstoyanie { /*Цифра рассчета*/
+      position: absolute;
+      width: 102px;
+      height: 48px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      letter-spacing: 0.075em;
+      border: 0px solid #000000;
+      color: #000000;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      margin-top: 449px;
+      margin-left: 294px;
+      }
+      
+
+      
+      .rub {
+          position: absolute;
+          width: 102px;
+          height: 48px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px; 
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          margin-top: 530px;
+          margin-left: 240px;  
+      }
+      
+      .custom-range { /*Полоса*/
+      position: absolute;
+      width: 484px;
+      height: 9px;
+      background: #C4BEBE;
+      box-shadow: 4px 4px 4px  rgba(0, 0, 0, 0.25);
+      margin-top: 500px;
+      margin-left: 110px;
+      }
+      
+      .distance  {
+          position: absolute;
+          width: 254px;
+          height: 20px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 123%;
+          letter-spacing: 0.165em;
+          text-transform: uppercase;
+          color: #000000;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          margin-top: 450px;
+          margin-left: 120px;
+      }
+      
+      .number {
+          position: absolute;
+          width: 254px;
+          height: 20px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 123%;
+          letter-spacing: 0.165em;
+          text-transform: uppercase;
+          color: #000000;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          margin-top: 0px;
+          margin-left: 6px; 
+      }
+      
+      
+      .km {
+          position: absolute;
+          width: 254px;
+          height: 20px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 123%;
+          letter-spacing: 0.165em;
+          text-transform: uppercase;
+          color: #000000;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          margin-top: 450px;
+          margin-left: 366px;  
+      }
+      
+      
+      .btn-block {
+          position: absolute;
+          width: 325px;
+          height: 41px;
+          background: #245CEC;
+          box-shadow: 0px 4px 4px rgb(255, 254, 254);
+          border-radius: 11px;
+          margin-top: 613px;
+          margin-left: 230px;
+          color: #FFFFFF;
+          font-family: 'Risque';
+          font-size: 25px;
+          font-weight: 400;
+      }
+      
+      
+      .range {
+          position: absolute;
+          width: 254px;
+          height: 20px;
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 20px;
+          line-height: 123%;
+          letter-spacing: 0.165em;
+          text-transform: uppercase;
+          color: #000000;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          margin-top: 450px;
+          margin-left: 290px; 
+      }
+
+
+
+
+
+
+
+     /*Калькулятор JS -  конец*/
+
+
+     .map { /*Земля*/
+      position: absolute;
+      left: 50%;
+      top: -25%;
+      transform: translateX(-50%);
+    }
+
+     .menu-foot {
+      width: 1140px;
+      margin: 0 auto;
+      color: white;
+      background: #c8a35f;
+      height: 129px;
+      margin-top: 300px;
+      
+    }
+
+   .ramka-footer h1{ 
+    width: 225px;
+    height: 50px;
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 20px;
+    color: #FFFFFF;    
+    align-items: center;
+    text-align: center;
+    padding-top: 31px;
+    margin-left: 93px;
+  }
+
+
+  .text-adress-footer {
+   position: absolute;
+   width: 318px;
+   height: 13px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   color: #F2F2F2;
+   opacity: 0.8; 
+   margin-top: -61px;
+   margin-left: 343px;
+  }
+
+.text-email-footer {
+width: 164px;
+height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #2F343A;
+margin-left: 345px;
+margin-top: -22px;
+  
+}
+
+.text-tel-footer {
+position: absolute;
+width: 291px;
+height: 28px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #F2F2F2;
+margin-top: -30px;
+margin-left: 517px;
+}
+
+
+.footer-feedback {
+  position: absolute;
+  width: 217px;
+  height: 44px;
+  background: rgba(243, 240, 236, 0.85);
+  background-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 12px;
+  margin-top: -65px;
+  margin-left: 682px;
+}
+
+.text-feedback-footer {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  letter-spacing: 0.095em;
+  margin-left: 703px;
+  margin-top: -54px;
+  text-decoration: none;
+}
+
+.text-vacancy-loader-driver {
+position: absolute;
+width: 373px;
+height: 54px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 146.48%;
+color: #FFFFFF;
+margin-left: 182px;
+margin-top: -81px;
+}
+
+
+footer {
+color: white;
+background: #c8a35f;
+
+}
+
+/* Поставить полоску в footer
+border-bottom: 1px solid #dedede;
+*/
+
+
+
+
+.button-respond-vacancies-one {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  background: rgba(243, 240, 236, 0.85);
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+  border-radius: 12px;
+  margin-top: 1164px;
+  margin-left: 477px;
+  text-decoration: none;
+}
+
+.text-button-vacancies-one  {
+  width: 213px;
+  height: 31px;
+  font-family: 'Rock 3D';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 11px;
+  margin-left: 53px;
+  
+}
+
+
+.gray-box-vacancy-two {
+  position: absolute;
+  width: 892px;
+  height: 958px;
+  background: #393F47;
+  margin-left: 138px;
+  margin-top: 1279px;
+}
+
+.text-driver-vacancy-two {
+  position: absolute;
+  width: 751px;
+  height: 663px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #BABABA;
+  margin-left: 216px;
+  margin-top: 1417px;
+}
+
+.loader {
+  position: absolute;
+  width: 373px;
+  height: 356px;
+  margin-top: 1705px;
+  margin-left: 379px;
+}
+
+.button-respond-vacancies-two {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  background: rgba(243, 240, 236, 0.85);
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0.25);
+  border-radius: 12px;
+  margin-top: 2126px;
+  margin-left: 477px;
+  text-decoration: none;
+}
+
+.text-button-vacancies-two  {
+  width: 213px;
+  height: 31px;
+  font-family: 'Rock 3D';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-top: 11px;
+  margin-left: 53px;
+  
+}
+
+.text-perevoz {
+  position: absolute;
+  width: 637px;
+  height: 52px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: -417px;
+  margin-left: 212px;
+}
+
+.gray-box-services {
+  position: absolute;
+  width: 929px;
+  height: 346px;
+  background: #2F343A;
+  margin-left: 89px;
+  margin-top: -258px;
+}
+
+.beige-stripe-services-one {
+  margin-top: 66px;
+  margin-left: 213px;
+}
+
+.text-transportation-bulky-goods {
+  position:absolute;
+  width: 637px;
+  height: 52px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 146.48%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: -215px;
+  margin-left: 212px;
+}
+
+.text-driver-services {
+  position: absolute;
+  width: 470px;
+  height: 307px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: -154px;
+  margin-left: 212px;
+}
+.foto-transportation-bulky-goods {
+  position: absolute;
+  width: 240px;
+  height: 172px;
+  border-radius: 12px;
+  margin-left: 96px;
+  margin-top: -240px;
+}
+
+
+.button-order-service-one {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  background: #DEA617;
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: -37px;
+  margin-left: 103px;
+  text-decoration: none;
+
+}
+
+
+.text-order-service-one {
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.beige-stripe-services-two {
+  position: absolute;
+  margin-top: 149px;
+  margin-left: 213px;
+}
+
+.gray-box-services-two {
+  position: absolute;
+  width: 929px;
+  height: 346px;
+  background: #2F343A;
+  margin-left: 89px;
+  margin-top: 243px;
+} 
+
+.text-transportation-heavy-goods {
+  position: absolute;
+  width: 638px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 146.48%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: 52px;
+  border-radius: 12px;
+  margin-left: 211px;
+  margin-top: 290px;
+}
+
+.text-professional-services {
+  position: absolute;
+  width: 470px;
+  height: 307px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-top: 352px;
+  margin-left: 211px;
+}
+
+.foto-transportation-heavy-goods {
+  position: absolute;
+  width: 242px;
+  height: 165px;
+  border-radius: 12px;
+  margin-left: 147px;
+  margin-top: -202px;
+}
+
+
+.button-order-service-two {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  background: #DEA617;
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: -14px;
+  margin-left: 152px;
+  text-decoration: none;
+
+}
+
+
+.text-order-service-two {
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+.gray-box-services-three {
+  position: absolute;
+  width: 929px;
+  height: 346px;
+  background: #2F343A;
+  margin-left: 89px;
+  margin-top: 736px;
+} 
+
+
+.beige-stripe-services-three {
+  position: absolute;
+  margin-top: 635px;
+  margin-left: 213px;
+}
+
+
+.text-transportation-oversized-cargo {
+  position: absolute;
+  width: 637px;
+  height: 52px;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 146.48%;
+ text-transform: uppercase;
+ color: #FFFFFF;
+ margin-top: 792px;
+ margin-left: 206px;
+}
+
+.text-safety-timing {
+ position: absolute;
+ width: 470px;
+ height: 307px;
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 23px;
+ color: #FFFFFF;
+ margin-top: 863px;
+ margin-left: 204px;
+}
+
+.foto-transportation-oversized {
+  position: absolute;
+  width: 245px;
+  height: 187px;
+  border-radius: 12px;
+  margin-top: -129px;
+  margin-left: 229px;
+}
+
+
+.button-order-service-three {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  background: #DEA617;
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: 78px;
+  margin-left: 240px;
+  text-decoration: none;
+
+}
+
+
+.text-order-service-three {
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+.glav-banner-three-services {
+  width: 1140px;
+  margin: 0 auto;
+  height: 1987px;
+}
+
+
+
+.gray-box-services-four {
+  position: absolute;
+  width: 929px;
+  height: 477px;
+  background: #2F343A;
+  margin-top: 1166px ;
+  margin-left: 91px;
+}
+
+
+
+.glav-banner-three-job-openings {
+  width: 1140px;
+  margin: 0 auto;
+  height: 2643px;
+}
+
+
+
+.container-right-job-openings {
+  margin-top: -320px;
+  margin-left: 686px;
+}
+
+
+.foto-trucks {
+  position: absolute;
+  margin-top: -82px;
+  margin-left: 67px;
+
+}
+
+
+
+.button-order-service-four {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  background: #DEA617;
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-top: 351px;
+  margin-left: 351px;
+  text-decoration: none;
+
+}
+
+
+.text-order-service-four {
+
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+
+.text-our-offices{
+  position: absolute;
+  width: 637px;
+  height: 52px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: -339px;
+  margin-left: 413px;
+}
+
+
+.gray-box-our-offices {
+  position: absolute;
+  width: 892px;
+  height: 1300px;
+  background: #393F47;
+  margin-left: 122px;
+  margin-top: -427px;
+}
+
+
+
+.glav-banner-three-our-offices {
+  width: 1140px;
+  margin: 0 auto;
+  height: 1242px;
+}
+
+
+.text-contakt-one {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: -229px;
+  margin-left: 194px;
+}
+
+.text-contakt-two {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: -104px;
+  margin-left: 194px;
+}
+
+
+.text-contakt-three {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: 23px;
+  margin-left: 194px;
+}
+
+
+.text-contakt-four {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: 151px;
+  margin-left: 194px;
+}
+
+
+.text-contakt-five {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: 281px;
+  margin-left: 194px;
+}
+
+.text-contakt-six {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: 413px;
+  margin-left: 194px;
+}
+
+
+.text-contakt-seven {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: 539px;
+  margin-left: 194px;
+}
+
+.text-contakt-eight {
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F2F2F2;
+  margin-top: 676px;
+  margin-left: 194px;
+}
+
+.foto-login {
+  position: absolute;
+  width: 103px;
+  height: 93px;
+  margin-top: -204px;
+  margin-left: 884px;
+
+}
+
+
+/*Начало с регистрации*/
+
+
+
+
+.container-account-register {
+  position: relative;
+  width: 350px;
+  height: 498px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  /*box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;*/
+  margin-top: 116px;
+  margin-left: 434px;
+}
+
+
+.brand-logo {
+  height: 100px;
+  width: 100px;
+  background: url("/img/Group-red.svg");
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.inputs {
+  text-align: left;
+  margin-top: 0px;
+}
+
+label, button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.seo-one {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.seo-two {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+
+
+
+
+
+input::placeholder {
+  color: gray;
+}
+
+.seo-one::placeholder {
+  color: gray;
+}
+
+.seo-two::placeholder {
+  color: gray;
+}
+
+
+
+/*Калькулятор теряет цвета из-за inputa*/
+.seo-one {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  margin-top: 25px;
+}
+
+.seo-two {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  margin-top: 25px;
+}
+
+
+
+button:hover {
+  box-shadow: none;
+}
+
+
+
+
+.glav-banner-login {
+  width: 1140px;
+  margin: 0 auto;
+  height: 200px;
+  
+}
+
+.button-one {
+  color: white;
+  margin-top: 20px;
+  background:#DEA617;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.button-two {
+  color: white;
+  margin-top: 20px;
+  background:#DEA617;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+
+/*Завершение страницы логин*/
+
+
+#out {
+  
+  
+  position: absolute;
+  width: 102px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.075em;
+  border: 0px solid #000000;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 530px;
+  margin-left: 112px;
+}
+
+
+
+.text-data-footer {
+  position: absolute;
+  width: 200px;
+  font-size: 15px;
+  font-family: "Roboto";
+  margin-top: -4px;
+  margin-left: 162px;
+  color: #000000;
+}
+
+
+.glav-banner-two-offices {
+  width: 1140px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+
+.container-left-offices {
+  margin-top: -90px;
+  margin-left: 2px;
+}
+
+
+.container-right-offices {
+  margin-top: -320px;
+  margin-left: 686px;
+}
+
+
+
+
+
+.container-left-vacanty {
+  margin-top: -4px;
+  margin-left: 2px;
+}
+
+
+.container-right-vacanty {
+  margin-top: -320px;
+  margin-left: 687px;
+}
+
+
+.fura-foto-vacanty {
+  margin-top: -270px;
+  margin-left: 550px;
+}
+
+
+.foto-login-vacanty {
+  position: absolute;
+  width: 103px;
+  height: 93px;
+  margin-top: -204px;
+  margin-left: 890px;
+}
+
+
+.text-europa-gruz-vacanty {
+  position: absolute;
+  width: 360px;
+  margin-left: 176px;
+  margin-top: -200px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 44px;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+
+.container-right-services {
+  margin-top: -96px;
+  margin-left: 686px;
+}
+
+
+.container-left-services {
+  margin-top: -322px;
+  margin-left: 1px;
+}
+
+
+.gray-box-about-the-company {
+ position: absolute;
+ width: 892px;
+ height: 1034px;
+ background: #393F47;
+ margin-top: 724px;
+ margin-left: 161px;
+}
+
+
+
+.glav-banner-two-about-company {
+  width: 1140px;
+  margin: 0 auto;
+  height: 1545px;
+}
+
+
+.text-description-transportation-about {
+  position: absolute;
+  width: 436px;
+  height: 335px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;  
+  margin-left: 173px;
+  margin-top: 179px;
+}
+
+
+.gray-box-about {
+  position: absolute;
+  width: 582px;
+  height: 482px;
+  background: #393F47;
+  margin-left: 348px;
+  margin-top: 143px;
+}
+
+
+
+.text-about-company-two {
+  position: absolute;
+  width: 500px;
+  height: 37px;
+}
+
+
+
+.text-about-company-two h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0px solid #000000;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  margin-left: 172px;
+  margin-top: 110px;
+}
+
+
+
+
+
+.razgruzka-gruzovika-about {
+    position: absolute;
+    width: 299px;
+    height: 210px;
+    margin-left: 737px;
+    margin-top: 414px;
+    background: url(img/razgruzka-gruzovika.svg);
+    border-radius: 9px;
+}
+
+
+.rusaer-about {
+  position: absolute;
+  width: 299px;
+  height: 231px;
+  margin-left: 736px;
+  margin-top: 146px;
+  background: url(img/rusaer2\ 1.svg);
+  border-radius: 9px;
+}
+
+
+
+
+.freight-forwarding-company {
+position: absolute;
+width: 751px;
+height: 663px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+align-items: center;
+letter-spacing: 0.02em;
+color: #BABABA;
+margin-left: 100px;
+margin-top: 76px;
+}
+
+
+.foto-trucks-about {
+  position: absolute;
+  width: 679px;
+  margin-top: 481px;
+  margin-left: 129px;
+}
+
+
+
+.button-order-about-one {
+  position: absolute;
+  width: 256px;
+  height: 44px;
+  background: #DEA617;
+  background-blend-mode: difference;
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  margin-top: 922px;
+  margin-left: 331px;
+  text-decoration: none;
+}
+
+.text-any-questions {
+  position: absolute;
+  width: 885px;
+  height: 85px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 835px;
+  margin-left: 16px;
+}
+
+
+
+
+
+.menu-foot-services {
+ width: 1140px;
+ margin: 0 auto;
+ color: white;
+ background: #c8a35f;
+ height: 129px;
+ margin-top: 326px;
+ 
+}
+
+
+.menu-foot-vacancy {
+  width: 1140px;
+  margin: 0 auto;
+  color: white;
+  background: #c8a35f;
+  height: 129px;
+  margin-top: 326px;
+  
+ }
