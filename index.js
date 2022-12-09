@@ -44,3 +44,15 @@ var sum = (weight.value * kg) + (vol.value * kub) + Number(load.value) + + Numbe
 alert('Введите вес и объем груза');
 }
 }
+
+
+
+
+// Look for .hamburger
+var hamburger = document.querySelector(".hamburger");
+// On click
+hamburger.addEventListener("click", function() {
+  // Toggle class "is-active"
+  hamburger.classList.toggle("is-active");
+  // Do something else, like open/close menu
+});

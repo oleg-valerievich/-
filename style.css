@@ -2443,3 +2443,28 @@ margin-top: 76px;
   margin-top: 326px;
   
  }
+
+
+ 
+ .page-header__toggle {
+  display: none;
+ }
+
+ .page-header__toggle.is-active + .header {
+  display: block;
+ }
+ 
+ /*Цвет гамбургера который не применился*/
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: #fff;
+}
+
+/*Спрятать гамбургер на пк веррсии*/
+.hamburger {
+  display: none;
+}

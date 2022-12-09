@@ -1,0 +1,25 @@
+@media screen and (max-width: 1140px) {
+  /* экраны 1200px и меньше*/
+     
+
+  /*Убираем меню на мобильных версиях*/
+.top-header  {
+display: none;
+}
+
+.main-menu-x {
+  display: none;
+ }
+
+/*Убрал землю*/
+.map {
+  display: none;
+}
+
+/*Показать гамбургер в мобильной версии */
+.hamburger {
+  display: block;
+}
+
+
+
