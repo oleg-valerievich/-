@@ -1,16 +1,92 @@
 @media screen and (max-width: 1140px) {
   /* экраны 1200px и меньше*/
-     
+ /* .glav-banner {
+    width: 1100px;
+    height: 534px;
+  }
+}
+
+  /*tekst-cargo-transporation {
+    margin-left: 147px;
+  }
+
 
   /*Убираем меню на мобильных версиях*/
 .top-header  {
 display: none;
 }
+  /*Убираем меню на мобильных версиях *display: none; */
+.page-header__nav {
+  position: absolute;
+  width: 343px;
+  height: 408px;
+  right: 0;
+  top: 100px;
+  background-color: #2F344A;
+  z-index: 1;
+  border-bottom: none; /*Убираем полоску*/
+  /*display: none;  - временно убираем*/
+ }
 
-.main-menu-x {
+ /* Убирем текст меню PC*/
+ .main-menu-list {
+  display: block;
+ }
+
+ .text-gruz-perevozki h1 {
+  margin-left: 78px;
+  margin-top: 60px;
+ }
+
+ 
+
+
+  /* Убирем текст меню PC*/
+ .menu-spisok-right {
+  display: block;
+  font-size: 70px;
+  line-height: 30px;
+  margin-left: 138px;
+  margin-top: -5px;
+  z-index: 1;
+ }
+
+ .polosa-menu {
   display: none;
  }
 
+ .vector-menu {
+  display: none;
+ }
+
+ .logo-makvidj {
+  margin-left: 132px;
+  margin-top: 22px;
+}
+
+
+.office-cont {
+  margin-left: 34px;
+  margin-top: 69px;
+}
+ 
+
+ .page-header__toggle {
+  display: block;
+}
+
+
+.page-header__toggle.is-active + .page-header__nav {
+  display: block;
+ }
+
+
+ .text-office {
+  padding-left: 10px;
+ }
+
+
+ 
 /*Убрал землю*/
 .map {
   display: none;
@@ -23,3 +99,79 @@ display: none;
 
 
 
+
+
+
+
+
+
+/*
+@media screen and (max-width: 980px) {
+
+header {
+  width: 250%;
+}
+
+.banner {
+  width: 60%;
+  
+}
+
+.glav-banner {
+width: 570%;
+
+}
+
+
+
+
+.banner-two {
+  width: 60%;
+  padding: 3% 4%;
+ 
+}
+
+.container-right {
+  width: 40%;
+  
+}
+
+
+.banner-three {
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+
+.banner-four {
+  flex-wrap: wrap;
+}
+
+
+.banner-five {
+  flex-wrap: wrap;
+}
+
+
+.banner-two {
+  flex-wrap: wrap;
+}
+
+
+
+.container-left  {
+ flex-basis: 70%;
+}
+
+
+  .container-right {
+    flex-basis: 70%;
+  }
+
+}
+}
+
+@media screen and (max-width:320px) {
+
+}
+*/

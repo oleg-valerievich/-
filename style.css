@@ -104,7 +104,7 @@ ul {
 
 
 
-.main-menu-x {
+.page-header__nav {
   border-bottom: 1px solid #dedede;
   background-color: #2f344a;
 }
@@ -2450,9 +2450,12 @@ margin-top: 76px;
   display: none;
  }
 
- .page-header__toggle.is-active + .header {
+ .page-header__toggle.is-active + .page-header__nav {
   display: block;
  }
+
+
+
  
  /*Цвет гамбургера который не применился*/
 .hamburger-inner,
@@ -2467,4 +2470,11 @@ margin-top: 76px;
 /*Спрятать гамбургер на пк веррсии*/
 .hamburger {
   display: none;
+}
+
+
+@media screen and (min-width: 1000px) {
+/* экраны 1000px и больше*/  
+
+
 }

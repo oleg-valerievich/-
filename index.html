@@ -20,17 +20,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <!--Здесь заканчивается-->
 
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/svg" sizes="32x25" href="img/favicon-32x25.png">
+    <link rel="icon" type="image/svg" sizes="21x16" href="img/favicon-21x16.png">
+    <link rel="icon" type="image/svg" sizes="52x44" href="img/favicon-52x44.png">
     <link rel="icon" type="image/svg" href="img/logo-favicon.svg" /> <!--Иконка для сайта не работает-->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Адаптация под мобильные устройства-->
     <title>Грузоперевозки по всей России и СНГ</title>
   </head>
   <body">
     <header>
-      <button class="page-header__toggle hamburger hamburger--squeeze is-active" type="button">
+    
+      <button class="page-header__toggle hamburger hamburger--squeeze" type="button" onclick="this.classList.toggle(' is-active')">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
       </button>
+     
+
+
+
+
 
       <div class="top-header bordert">
         <div class="container d-flex">
@@ -54,7 +64,7 @@
 
       
 
-      <nav class="main-menu-x">
+      <nav class="page-header__nav">
         <ul class="main-menu-list">
           <img class="logo-makvidj" src="img/logo.svg" />
           <li><a class="text-gruz-perevozki" href="index.html"><h1>Грузоперевозки<br>по всей России<br> и СНГ</h1></a></li>
